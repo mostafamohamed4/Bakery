@@ -32,3 +32,6 @@ $(window).scroll(() => {
     }
 
 })
+document.getElementById("menu").addEventListener('click',()=>{
+    $('.navbar').css('background-color', 'black')
+})
